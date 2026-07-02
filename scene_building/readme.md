@@ -1,0 +1,9 @@
+0. Extract frames (adaptive fps)
+1. Location clustering on RAW frames (DINOv2/CLIP embeddings + HDBSCAN)
+2. VLM captioning per cluster → verify/merge/split clusters, tag floor/room relationships
+3. People removal + video inpainting (per cluster, after clustering is locked)
+4. Per-cluster SfM (glomap/COLMAP or DUSt3R for sparse-overlap shots) → camera poses
+5. Per-cluster Gaussian Splatting for renderable 3D
+6. Identify connective frames (VLM flags shots with stairs/doors/windows implying adjacency)
+7. Video-diffusion interpolation (CameraCtrl-style) using edge frames of adjacent clusters as anchors, to synthesize the missing transition
+8. Stitch into full navigable 3D set
