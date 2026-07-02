@@ -50,4 +50,4 @@ anchors for the movies and on the fly scene building
 2. move towards a corner of the ground hall which has a attached room - get the hall in the ground floor(cluster 2)
 3. movie forward u get stairs in with walls left and right and climb to the top - to be hallucinated
 4. walk a limited distance on the top - to be hallicanated
-5. once walked up move left  to enter manu room - (cluster 15,16,17,18,22,23,24,25,26,29,30,31)
+5. once walked up move left  to enter manu room - (cluster 15)
